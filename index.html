@@ -1,0 +1,60 @@
+<html>
+
+<head>
+  <title>Calculator App </title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  
+  <div id="calculator_container">
+
+    <div id="displaycontainer">
+
+    </div>
+    
+
+    <div id="button_container" style="margin: auto;">
+
+      <div id="row">
+        <div id="button" onclick="Delete();" >C</div>
+        <div id="button" onclick="Clear();" >CE</div>
+        <div id="button" onclick="insert('%');">%</div>
+        <div id="button" onclick="insert('*');">X</div>
+      </div>
+
+      <div id="row">
+        <div id="button" onclick="insert(1);">1</div>
+        <div id="button" onclick="insert(2);">2</div>
+        <div id="button" onclick="insert(3);">3</div>
+        <div id="button" onclick="insert('+');">+</div>
+      </div>
+      <div id="row">
+        <div id="button" onclick="insert(4);">4</div>
+        <div id="button" onclick="insert(5);">5</div>
+        <div id="button" onclick="insert(6);">6</div>
+        <div id="button" onclick="insert('-');">-</div>
+      </div>
+      <div id="row">
+        <div id="button" onclick="insert(7);">7</div>
+        <div id="button" onclick="insert(8);">8</div>
+        <div id="button" onclick="insert(9);">9</div>
+        <div id="button" onclick="insert('/');">/</div>
+      </div>
+      <div id="row">
+        <div id="button" onclick="insert('0'+'0');">00</div>
+        <div id="button" onclick="insert(0);">0</div>
+        <div id="button" onclick="insert('.');">.</div>
+        <div id="button" onclick="calculate();">=</div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
